@@ -1,0 +1,23 @@
+{
+  "name": "kinda-db-rest",
+  "version": "0.1.0",
+  "description": "...",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kinda/kinda-db-rest"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "kinda-db": "https://github.com/kinda/kinda-db/tarball/master",
+    "kinda-db-auth": "https://github.com/kinda/kinda-db-auth/tarball/master",
+    "kinda-http-client": "https://github.com/kinda/kinda-http-client/tarball/master",
+    "kinda-object": "https://github.com/kinda/kinda-object/tarball/master",
+    "kinda-util": "https://github.com/kinda/kinda-util/tarball/master",
+    "lodash": "^2.4.1"
+  }
+}
