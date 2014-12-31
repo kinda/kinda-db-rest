@@ -13,11 +13,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "kinda-db": "https://github.com/kinda/kinda-db/tarball/master",
-    "kinda-db-auth": "https://github.com/kinda/kinda-db-auth/tarball/master",
-    "kinda-http-client": "https://github.com/kinda/kinda-http-client/tarball/master",
-    "kinda-object": "https://github.com/kinda/kinda-object/tarball/master",
-    "kinda-util": "https://github.com/kinda/kinda-util/tarball/master",
+    "kinda-db": "kinda/kinda-db",
+    "kinda-db-auth": "kinda/kinda-db-auth",
+    "kinda-http-client": "kinda/kinda-http-client",
+    "kinda-object": "kinda/kinda-object",
+    "kinda-util": "kinda/kinda-util",
     "lodash": "^2.4.1"
   }
 }
