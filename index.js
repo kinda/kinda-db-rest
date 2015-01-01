@@ -5,10 +5,10 @@ var querystring = require('querystring');
 var _ = require('lodash');
 var util = require('kinda-util').create();
 var httpClient = require('kinda-http-client').create();
-var KindaDB = require('kinda-db/database');
+var KindaDBCommon = require('kinda-db-common');
 var Auth = require('kinda-db-auth');
 
-var KindaRESTDB = KindaDB.extend('KindaRESTDB', function() {
+var KindaRESTDB = KindaDBCommon.extend('KindaRESTDB', function() {
   this.include(Auth);
 
   this.Table = require('./table');

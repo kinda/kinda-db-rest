@@ -13,8 +13,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "kinda-db": "kinda/kinda-db",
     "kinda-db-auth": "kinda/kinda-db-auth",
+    "kinda-db-common": "kinda/kinda-db-common",
     "kinda-http-client": "kinda/kinda-http-client",
     "kinda-object": "kinda/kinda-object",
     "kinda-util": "kinda/kinda-util",
