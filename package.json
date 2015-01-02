@@ -17,11 +17,11 @@
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "dependencies": {
-    "kinda-db-auth": "kinda/kinda-db-auth",
-    "kinda-db-common": "kinda/kinda-db-common",
-    "kinda-http-client": "kinda/kinda-http-client",
-    "kinda-object": "kinda/kinda-object",
-    "kinda-util": "kinda/kinda-util",
+    "kinda-db-auth": "^0.1.0",
+    "kinda-db-common": "^0.1.0",
+    "kinda-http-client": "^0.1.0",
+    "kinda-object": "^0.1.0",
+    "kinda-util": "^0.1.0",
     "lodash": "^2.4.1"
   }
 }
