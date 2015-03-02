@@ -74,6 +74,16 @@ var KindaRESTDB = KindaDBCommon.extend('KindaRESTDB', function() {
     return res.body;
   };
 
+  this.getCount = function *(table, options) {
+    table = this.normalizeTable(table);
+    options = this.normalizeOptions(options);
+    var url = this.makeURL(table, 'count', undefined, options);
+    var params = { method: 'GET', url: url };
+    var res = yield httpClient.request(params);
+    if (res.statusCode !== 200) throw this.createError(res);
+    return res.body;
+  };
+
   this.call = function *(table, key, action, params, options) {
     table = this.normalizeTable(table);
     key = this.normalizeKey(key);
